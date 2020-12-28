@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D88E08D259A94D200619AD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E08C259A94D200619AD5 /* AppDelegate.swift */; };
+		4D88E08F259A94D200619AD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E08E259A94D200619AD5 /* SceneDelegate.swift */; };
+		4D88E091259A94D200619AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E090259A94D200619AD5 /* ContentView.swift */; };
+		4D88E093259A94D300619AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88E092259A94D300619AD5 /* Assets.xcassets */; };
+		4D88E096259A94D300619AD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88E095259A94D300619AD5 /* Preview Assets.xcassets */; };
+		4D88E099259A94D300619AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D88E097259A94D300619AD5 /* LaunchScreen.storyboard */; };
+		4D88E0A4259A94D300619AD5 /* Cardless_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0A3259A94D300619AD5 /* Cardless_ProjectTests.swift */; };
+		4D88E0AF259A94D300619AD5 /* Cardless_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0AE259A94D300619AD5 /* Cardless_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D88E0A0259A94D300619AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D88E081259A94D200619AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D88E088259A94D200619AD5;
+			remoteInfo = Cardless_Project;
+		};
+		4D88E0AB259A94D300619AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D88E081259A94D200619AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D88E088259A94D200619AD5;
+			remoteInfo = Cardless_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D88E089259A94D200619AD5 /* Cardless_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardless_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D88E08C259A94D200619AD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D88E08E259A94D200619AD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D88E090259A94D200619AD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D88E092259A94D300619AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D88E095259A94D300619AD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D88E098259A94D300619AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D88E09A259A94D300619AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88E09F259A94D300619AD5 /* Cardless_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cardless_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D88E0A3259A94D300619AD5 /* Cardless_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardless_ProjectTests.swift; sourceTree = "<group>"; };
+		4D88E0A5259A94D300619AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88E0AA259A94D300619AD5 /* Cardless_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cardless_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D88E0AE259A94D300619AD5 /* Cardless_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardless_ProjectUITests.swift; sourceTree = "<group>"; };
+		4D88E0B0259A94D300619AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D88E086259A94D200619AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88E09C259A94D300619AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88E0A7259A94D300619AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D88E080259A94D200619AD5 = {
+			isa = PBXGroup;
+			children = (
+				4D88E08B259A94D200619AD5 /* Cardless_Project */,
+				4D88E0A2259A94D300619AD5 /* Cardless_ProjectTests */,
+				4D88E0AD259A94D300619AD5 /* Cardless_ProjectUITests */,
+				4D88E08A259A94D200619AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D88E08A259A94D200619AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E089259A94D200619AD5 /* Cardless_Project.app */,
+				4D88E09F259A94D300619AD5 /* Cardless_ProjectTests.xctest */,
+				4D88E0AA259A94D300619AD5 /* Cardless_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D88E08B259A94D200619AD5 /* Cardless_Project */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E08C259A94D200619AD5 /* AppDelegate.swift */,
+				4D88E08E259A94D200619AD5 /* SceneDelegate.swift */,
+				4D88E090259A94D200619AD5 /* ContentView.swift */,
+				4D88E092259A94D300619AD5 /* Assets.xcassets */,
+				4D88E097259A94D300619AD5 /* LaunchScreen.storyboard */,
+				4D88E09A259A94D300619AD5 /* Info.plist */,
+				4D88E094259A94D300619AD5 /* Preview Content */,
+			);
+			path = Cardless_Project;
+			sourceTree = "<group>";
+		};
+		4D88E094259A94D300619AD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E095259A94D300619AD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D88E0A2259A94D300619AD5 /* Cardless_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E0A3259A94D300619AD5 /* Cardless_ProjectTests.swift */,
+				4D88E0A5259A94D300619AD5 /* Info.plist */,
+			);
+			path = Cardless_ProjectTests;
+			sourceTree = "<group>";
+		};
+		4D88E0AD259A94D300619AD5 /* Cardless_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E0AE259A94D300619AD5 /* Cardless_ProjectUITests.swift */,
+				4D88E0B0259A94D300619AD5 /* Info.plist */,
+			);
+			path = Cardless_ProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D88E088259A94D200619AD5 /* Cardless_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D88E0B3259A94D300619AD5 /* Build configuration list for PBXNativeTarget "Cardless_Project" */;
+			buildPhases = (
+				4D88E085259A94D200619AD5 /* Sources */,
+				4D88E086259A94D200619AD5 /* Frameworks */,
+				4D88E087259A94D200619AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardless_Project;
+			productName = Cardless_Project;
+			productReference = 4D88E089259A94D200619AD5 /* Cardless_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D88E09E259A94D300619AD5 /* Cardless_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D88E0B6259A94D300619AD5 /* Build configuration list for PBXNativeTarget "Cardless_ProjectTests" */;
+			buildPhases = (
+				4D88E09B259A94D300619AD5 /* Sources */,
+				4D88E09C259A94D300619AD5 /* Frameworks */,
+				4D88E09D259A94D300619AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D88E0A1259A94D300619AD5 /* PBXTargetDependency */,
+			);
+			name = Cardless_ProjectTests;
+			productName = Cardless_ProjectTests;
+			productReference = 4D88E09F259A94D300619AD5 /* Cardless_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D88E0A9259A94D300619AD5 /* Cardless_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D88E0B9259A94D300619AD5 /* Build configuration list for PBXNativeTarget "Cardless_ProjectUITests" */;
+			buildPhases = (
+				4D88E0A6259A94D300619AD5 /* Sources */,
+				4D88E0A7259A94D300619AD5 /* Frameworks */,
+				4D88E0A8259A94D300619AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D88E0AC259A94D300619AD5 /* PBXTargetDependency */,
+			);
+			name = Cardless_ProjectUITests;
+			productName = Cardless_ProjectUITests;
+			productReference = 4D88E0AA259A94D300619AD5 /* Cardless_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D88E081259A94D200619AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4D88E088259A94D200619AD5 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4D88E09E259A94D300619AD5 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4D88E088259A94D200619AD5;
+					};
+					4D88E0A9259A94D300619AD5 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4D88E088259A94D200619AD5;
+					};
+				};
+			};
+			buildConfigurationList = 4D88E084259A94D200619AD5 /* Build configuration list for PBXProject "Cardless_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D88E080259A94D200619AD5;
+			productRefGroup = 4D88E08A259A94D200619AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D88E088259A94D200619AD5 /* Cardless_Project */,
+				4D88E09E259A94D300619AD5 /* Cardless_ProjectTests */,
+				4D88E0A9259A94D300619AD5 /* Cardless_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D88E087259A94D200619AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88E099259A94D300619AD5 /* LaunchScreen.storyboard in Resources */,
+				4D88E096259A94D300619AD5 /* Preview Assets.xcassets in Resources */,
+				4D88E093259A94D300619AD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88E09D259A94D300619AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88E0A8259A94D300619AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D88E085259A94D200619AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88E08D259A94D200619AD5 /* AppDelegate.swift in Sources */,
+				4D88E08F259A94D200619AD5 /* SceneDelegate.swift in Sources */,
+				4D88E091259A94D200619AD5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88E09B259A94D300619AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88E0A4259A94D300619AD5 /* Cardless_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D88E0A6259A94D300619AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88E0AF259A94D300619AD5 /* Cardless_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D88E0A1259A94D300619AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D88E088259A94D200619AD5 /* Cardless_Project */;
+			targetProxy = 4D88E0A0259A94D300619AD5 /* PBXContainerItemProxy */;
+		};
+		4D88E0AC259A94D300619AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D88E088259A94D200619AD5 /* Cardless_Project */;
+			targetProxy = 4D88E0AB259A94D300619AD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D88E097259A94D300619AD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D88E098259A94D300619AD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D88E0B1259A94D300619AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D88E0B2259A94D300619AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D88E0B4259A94D300619AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardless_Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cardless_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Programic-UI.Cardless-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D88E0B5259A94D300619AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardless_Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cardless_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Programic-UI.Cardless-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D88E0B7259A94D300619AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cardless_ProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Programic-UI.Cardless-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardless_Project.app/Cardless_Project";
+			};
+			name = Debug;
+		};
+		4D88E0B8259A94D300619AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cardless_ProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Programic-UI.Cardless-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardless_Project.app/Cardless_Project";
+			};
+			name = Release;
+		};
+		4D88E0BA259A94D300619AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cardless_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Programic-UI.Cardless-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardless_Project;
+			};
+			name = Debug;
+		};
+		4D88E0BB259A94D300619AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cardless_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Programic-UI.Cardless-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardless_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D88E084259A94D200619AD5 /* Build configuration list for PBXProject "Cardless_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88E0B1259A94D300619AD5 /* Debug */,
+				4D88E0B2259A94D300619AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D88E0B3259A94D300619AD5 /* Build configuration list for PBXNativeTarget "Cardless_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88E0B4259A94D300619AD5 /* Debug */,
+				4D88E0B5259A94D300619AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D88E0B6259A94D300619AD5 /* Build configuration list for PBXNativeTarget "Cardless_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88E0B7259A94D300619AD5 /* Debug */,
+				4D88E0B8259A94D300619AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D88E0B9259A94D300619AD5 /* Build configuration list for PBXNativeTarget "Cardless_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D88E0BA259A94D300619AD5 /* Debug */,
+				4D88E0BB259A94D300619AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D88E081259A94D200619AD5 /* Project object */;
+}
