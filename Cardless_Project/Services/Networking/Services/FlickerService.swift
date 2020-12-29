@@ -30,17 +30,3 @@ extension FlickerAPI {
         return decodedFuture
     }
 }
-
-/*
- // MARK: - Parallel
- func parallel() {
-     let members = GithubAPI.members(org: "apple")
-     let repos = GithubAPI.repos(org: "apple")
-     let token = Publishers.Zip(members, repos)
-         .sink(receiveCompletion: { _ in },
-               receiveValue: { (members, repos) in print(members, repos) })
-
-     RunLoop.main.run(until: Date(timeIntervalSinceNow: 10))
-
-     withExtendedLifetime(token, {})
- */
