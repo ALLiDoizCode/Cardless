@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,12 @@
 		4D88E099259A94D300619AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D88E097259A94D300619AD5 /* LaunchScreen.storyboard */; };
 		4D88E0A4259A94D300619AD5 /* Cardless_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0A3259A94D300619AD5 /* Cardless_ProjectTests.swift */; };
 		4D88E0AF259A94D300619AD5 /* Cardless_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0AE259A94D300619AD5 /* Cardless_ProjectUITests.swift */; };
+		4D88E0C0259A957400619AD5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0BF259A957400619AD5 /* Constants.swift */; };
+		4D88E0C6259A958700619AD5 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0C5259A958700619AD5 /* Photos.swift */; };
+		4D88E0CC259A959A00619AD5 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0CB259A959A00619AD5 /* Future.swift */; };
+		4D88E0D2259A95A900619AD5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0D1259A95A800619AD5 /* APIClient.swift */; };
+		4D88E0D8259A95B600619AD5 /* FlickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88E0D7259A95B600619AD5 /* FlickerService.swift */; };
+		4D88E0E1259A996300619AD5 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4D88E0E0259A996300619AD5 /* KingfisherSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,11 @@
 		4D88E0AA259A94D300619AD5 /* Cardless_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cardless_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D88E0AE259A94D300619AD5 /* Cardless_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardless_ProjectUITests.swift; sourceTree = "<group>"; };
 		4D88E0B0259A94D300619AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88E0BF259A957400619AD5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4D88E0C5259A958700619AD5 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		4D88E0CB259A959A00619AD5 /* Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
+		4D88E0D1259A95A800619AD5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		4D88E0D7259A95B600619AD5 /* FlickerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D88E0E1259A996300619AD5 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +111,9 @@
 		4D88E08B259A94D200619AD5 /* Cardless_Project */ = {
 			isa = PBXGroup;
 			children = (
+				4D88E0CA259A959200619AD5 /* Services */,
+				4D88E0C4259A957D00619AD5 /* Models */,
+				4D88E0BF259A957400619AD5 /* Constants.swift */,
 				4D88E08C259A94D200619AD5 /* AppDelegate.swift */,
 				4D88E08E259A94D200619AD5 /* SceneDelegate.swift */,
 				4D88E090259A94D200619AD5 /* ContentView.swift */,
@@ -136,6 +151,40 @@
 			path = Cardless_ProjectUITests;
 			sourceTree = "<group>";
 		};
+		4D88E0C4259A957D00619AD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E0C5259A958700619AD5 /* Photos.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D88E0CA259A959200619AD5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E0D0259A959D00619AD5 /* Networking */,
+				4D88E0CB259A959A00619AD5 /* Future.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4D88E0D0259A959D00619AD5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E0D6259A95AC00619AD5 /* Services */,
+				4D88E0D1259A95A800619AD5 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4D88E0D6259A95AC00619AD5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D88E0D7259A95B600619AD5 /* FlickerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +201,9 @@
 			dependencies = (
 			);
 			name = Cardless_Project;
+			packageProductDependencies = (
+				4D88E0E0259A996300619AD5 /* KingfisherSwiftUI */,
+			);
 			productName = Cardless_Project;
 			productReference = 4D88E089259A94D200619AD5 /* Cardless_Project.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 4D88E080259A94D200619AD5;
+			packageReferences = (
+				4D88E0DF259A996300619AD5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 4D88E08A259A94D200619AD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D88E0D8259A95B600619AD5 /* FlickerService.swift in Sources */,
+				4D88E0CC259A959A00619AD5 /* Future.swift in Sources */,
+				4D88E0D2259A95A900619AD5 /* APIClient.swift in Sources */,
 				4D88E08D259A94D200619AD5 /* AppDelegate.swift in Sources */,
 				4D88E08F259A94D200619AD5 /* SceneDelegate.swift in Sources */,
 				4D88E091259A94D200619AD5 /* ContentView.swift in Sources */,
+				4D88E0C6259A958700619AD5 /* Photos.swift in Sources */,
+				4D88E0C0259A957400619AD5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +651,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D88E0DF259A996300619AD5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D88E0E0259A996300619AD5 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D88E0DF259A996300619AD5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D88E081259A94D200619AD5 /* Project object */;
 }
